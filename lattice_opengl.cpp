@@ -22,7 +22,7 @@ void display() {
 	glEnd();
         glPointSize(5.0f);
 	glBegin(GL_POINTS);
-	for(float i=-10; i<10; i+=0.1){
+	for(float i=-10; i<10; i+=0.3){
 		for(float j=-10; j<10; j+=0.1){
 			glColor3f(j, j, (1-j)/2);
 			glVertex2f(i, j/0.5625);
